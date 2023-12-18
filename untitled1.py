@@ -3,16 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-data=pd.read_csv('economic_data.csv')
-print(data)
 
-print(data.describe())
-
-print(data.head())
-plt.scatter(data['Year'],data['GDP'])
-plt.show()
-
-#y=mx+b
 
 print(data.head())
 
